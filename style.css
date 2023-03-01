@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#234699,#099909);
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 12vh;
+    background-color: transparent;
+}
+.header > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header > ul >li{
+    margin-top: 20px;
+    list-style: none;
+    font-family: cursive;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+li:hover{
+    box-shadow: 0 5px 0px red;
+}
+.menu{
+    position: absolute;
+    top: 45px;
+    list-style: none;
+}
+.menu > li{
+    display: none;
+    padding: 2px;
+}
+li:hover .menu>li{
+    display: block;
+}
